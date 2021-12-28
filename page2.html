@@ -39,17 +39,21 @@
 		<main class="page-container">
 			
 			<!-- bloc-0 -->
-			<header id="bloc-0" class="bloc bgc-white l-bloc ">
+			<header id="bloc-0" class="bloc bgc-white l-bloc " >
 				<div class="container bloc-sm">
-					<nav class="navbar row">
-						<div class="navbar-header">
+	
+					<nav class="navbar row"
+						aria-label="Global"
+					>
+						<div class="navbar-header"
+							aria-label="navbar header"
+						>
 							<a class="navbar-brand" href="index.html">
 								<img src="img/la-chouette-agence.webp" 
-									alt="Logo de la chouette agence, agence de webdesign" 
-									height="40"
+									alt="Logo de la chouette agence, agence de webdesign"
 								/>
 							</a>
-							<button id="nav-toggle" 
+							<button id="nav-toggle"
 									type="button" 
 									class="ui-navbar-toggle navbar-toggle" 
 									data-toggle="collapse" 
@@ -61,19 +65,30 @@
 								<span class="icon-bar"></span>
 							</button>
 						</div>
-						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav"
+							aria-label="nav menu"
+						>
 							<ul class="site-navigation nav navbar-nav">
 								<li>
-									<a href="index.html">Accueil</a>
+									<a	aria-label="Welcome page"
+										aria-current="page"
+										href="index.html"
+									>
+										Accueil
+									</a>
 								</li>
 								<li>
-									<a href="page2.html">Contact</a>
+									<a	aria-label="Contact page"
+										href="page2.html"
+									>
+										Contact
+									</a>
 								</li>
 							</ul>
 						</div>
 					</nav>
 				</div>
-			</header>
+			</header>	
 			<!-- bloc-0 END -->
 
 			<!-- bloc-6 -->
@@ -204,7 +219,7 @@
 			<!-- Footer - bloc-8 END -->
 			<script src="https://releases.jquery.com/git/jquery-2.x-git.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-			<script src="./js/blocs.min.js"></script>
+			<script src="./js/blocs.js"></script>
 			<script src="./js/jqBootstrapValidation.js"></script>
 			<script src="./js/formHandler.js"></script>
 
