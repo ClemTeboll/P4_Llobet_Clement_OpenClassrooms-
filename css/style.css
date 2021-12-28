@@ -18,6 +18,15 @@ a:hover {
     cursor: pointer;
 }
 
+.accessible-background {
+    background-color: #303030!important;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -558,15 +567,15 @@ h1 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FF4F35;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FF4F35!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #FF4F35;
     color: #FFFFFF!important;
 }
 
