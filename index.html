@@ -3,36 +3,30 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
-		<meta name="description" content="">
+		<meta name="description" content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 		<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
 		<!-- Open Graph data -->
 		<meta property="og:title" content="La chouette agence"/>
 		<meta property="og:type" content="website"/>
-		<meta property="og:url" content="#"/>
-		<meta property="og:image" content="#"/>
-		<meta property="og:description" content="Description Here"/>
+		<meta property="og:url" content="https://clemteboll.github.io/P4_Llobet_Clement_OpenClassrooms-/"/>
+		<meta property="og:image" content="https://clemteboll.github.io/P4_Llobet_Clement_OpenClassrooms-/img/la-chouette-agence.webp"/>
+		<meta property="og:description" content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet."/>
 
 		<!-- Twitter Card data -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@publisher_handle">
 		<meta name="twitter:title" content="La chouette agence">
-		<meta name="twitter:description" content="Page description less than 200 characters">
+		<meta name="twitter:description" content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.">
 		<meta name="twitter:creator" content="@author_handle">
 		<!-- Twitter Summary card images must be at least 200x200px -->
-		<meta name="twitter:image" content="#">
+		<meta name="twitter:image" content="https://clemteboll.github.io/P4_Llobet_Clement_OpenClassrooms-/img/la-chouette-agence.webp">
 		
 		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-		
-		<script defer src="./js/jquery-2.1.0.js"></script>
-		<script defer src="./js/bootstrap.js"></script>
-		<script defer src="./js/blocs.js"></script>
-		<script defer src="./js/jquery.touchSwipe.js"></script>
-		<script defer src="./js/gmaps.js"></script>
 
 		<title>La chouette agence - agence de webdesign à Lyon</title>
 
@@ -43,8 +37,12 @@
 		<header id="bloc-0" class="bloc bgc-white l-bloc " >
 			<div class="container bloc-sm">
 
-				<nav class="navbar row">
-					<div class="navbar-header">
+				<nav class="navbar row"
+					aria-label="Global"
+				>
+					<div class="navbar-header"
+						aria-label="navbar header"
+					>
 						<a class="navbar-brand" href="index.html">
 							<img src="img/la-chouette-agence.webp" 
 								alt="Logo de la chouette agence, agence de webdesign"
@@ -62,13 +60,24 @@
 							<span class="icon-bar"></span>
 						</button>
 					</div>
-					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav"
+						aria-label="nav menu"
+					>
 						<ul class="site-navigation nav navbar-nav">
 							<li>
-								<a href="index.html">Accueil</a>
+								<a	aria-label="Welcome page"
+									aria-current="page"
+									href="index.html"
+								>
+									Accueil
+								</a>
 							</li>
 							<li>
-								<a href="page2.html">Contact</a>
+								<a	aria-label="Contact page"
+									href="page2.html"
+								>
+									Contact
+								</a>
 							</li>
 						</ul>
 					</div>
@@ -258,7 +267,7 @@
 							Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 						</h2>
 						<div class="col-sm-12 text-center">
-							<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+							<a role = "button" href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 						</div>
 					</div>
 				</div>
@@ -283,15 +292,11 @@
 					<span class="fa fa-instagram icon-md"></span>
 				</a>
 			</div>
-			<div class="row">
-				<ul>
-					<li>Partenaires :</li>
-					<li><a href="voiture.com">voiture.com</a></li>
-					<li><a href="pizza.com">pizza.com</a></li>
-					<li><a href="matoiture.com">matoiture.com</a></li>
-					<li><a href="immobilierseo.com">immobilierseo.com</a></li>
-				</ul>		
-			</div>
 		</footer>
+
+		<script src="https://releases.jquery.com/git/jquery-2.x-git.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="./js/blocs.min.js"></script>
+
 	</body>
 </html>
