@@ -30,3 +30,8 @@
 .fa-dribbble:before {
     content: "\f17d"
 }
+
+.fa-bars {
+    font-size: 20px;
+    margin-right: 20%;
+}

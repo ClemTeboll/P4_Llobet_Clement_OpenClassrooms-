@@ -27,6 +27,25 @@ a:hover {
     padding-bottom: 10px;
 }
 
+.accessible-font-size {
+    font-size: 16px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quotation {
+    font-size: 20px;
+}
+
+.quotation-italic {
+    font-size: 20px;
+    font-style: italic;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -490,7 +509,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 75%;
     margin: auto auto auto auto;
 }
 
@@ -571,7 +590,7 @@ h1 {
 }
 
 .tc-white {
-    color: #FF4F35!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -702,6 +721,9 @@ h1 {
     .navbar-header {
         float: none;
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
     .navbar-toggle {
         float: left;
