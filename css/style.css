@@ -524,7 +524,10 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+}
+
+.social-medias {
+    margin: 2%;
 }
 
 h2 {
