@@ -23,10 +23,10 @@
 		<!-- Twitter Summary card images must be at least 200x200px -->
 		<meta name="twitter:image" content="https://clemteboll.github.io/P4_Llobet_Clement_OpenClassrooms-/img/la-chouette-agence.webp">
 
-		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
-		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 		
 		<title>Contact - La chouette agence</title>
 		
@@ -104,30 +104,25 @@
 								novalidate 
 								success-msg="Your message has been sent." 
 								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
+								aria-labelledby="formulaire de contact"
 							>
 								<div class="form-group">
-									<label>
-										Nom
-									</label>
-									<input id="name" class="form-control" required />
+									<label for="name">Nom</label>
+									<input type="text" name="name" id="name" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<label>
-										Adresse email
-									</label>
-									<input id="email" class="form-control" type="email" required />
+									<label for="email">Adresse email</label>
+									<input type="email" name="email" id="email" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<label>
-										Comment nous avez-vous connu ?
-									</label>
-									<input id="input_504" class="form-control" type="email" required />
+									<label for="input_504">Comment nous avez-vous connu ?</label>
+									<input type="text" name="input_504" id="input_504" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<label>
-										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									</label>
-									<textarea id="message" 
+									<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+									<textarea
+											name="message"
+											id="message" 
 											class="form-control"
 											rows="4"
 											cols="50"
@@ -210,8 +205,8 @@
 			</footer>
 			<!-- Footer - bloc-8 END -->
 			
-			<script src="https://releases.jquery.com/git/jquery-2.x-git.min.js"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+			<script src="https://releases.jquery.com/git/jquery-2.x-git.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
 			<script src="./js/blocs.js"></script>
 			<script src="./js/jqBootstrapValidation.js"></script>
 			<script src="./js/formHandler.js"></script>
